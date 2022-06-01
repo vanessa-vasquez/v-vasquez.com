@@ -1,0 +1,121 @@
+#project-section .header{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+/* Carousel */ 
+.slide{
+    border-radius: 30px;
+}
+
+.carousel-caption{
+    color: #2b2522;
+    padding-bottom: 2.5rem;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232b2522' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232b2522' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #2b2522;
+}
+
+.carousel-indicators .active{
+    background-color: #9dba6d;
+}
+
+.youtube-icon:hover, .github-icon-2:hover{
+    transform: scale(1.1);
+    cursor: grab;
+    color: #9db86d;
+}
+
+#project-section a{
+    color: #2b2522;
+}
+
+.read-more-btn{
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.read-more-btn:hover{
+    background-color: #9db86d;
+    border-color: #9db86d;
+    color: #faf7f2 !important;
+    cursor: grab;
+}
+
+/* Extra-small size screens */
+@media only screen and (min-width: 0px) {     
+    .project-title{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .description{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .tools{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Medium size screens and bigger */
+@media only screen and (min-width: 768px) {
+    #project-section{
+        margin-top: 100px;
+    }
+    
+    #project-section .header{
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .project-title{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .description{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .tools{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Extra small size screens */
+@media only screen and (min-width: 0px) {     
+    #project-section .header{
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+
+

@@ -1,0 +1,162 @@
+.img-container{
+    width: 400px;
+    height: 400px;
+}
+
+.img-container img{
+    border-radius: 30px;
+}
+
+#about-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    position: fixed;
+    font-weight: 700;
+}
+
+.navigation a, .contact a {
+    text-decoration: none;
+    color: #faf7f2;
+}
+
+.navigation a:hover{
+    color: #9db86d;
+    cursor: grab;
+}
+
+.mail-icon{
+    margin-bottom: 100px;
+}
+
+.github-icon:hover, .mail-icon:hover{
+    transform: scale(1.1);
+    cursor: grab;
+    color: #9db86d;
+}
+
+/* Medium size screens and bigger */
+@media only screen and (min-width: 768px) {
+    .lists{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        padding-right: 50px;
+    }
+
+    .technologies{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        padding-right: 50px;
+    }
+
+    .bio{
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 20px;
+        padding-right: 100px;
+    }
+
+    .github-icon{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 70px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* Small size screens */
+@media only screen and (max-width: 767px) {
+    .lists{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .technologies{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .bio{
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .github-icon{
+        margin-right: 20px;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Extra small size screens */
+@media only screen and (max-width: 575px) {
+    .lists{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .technologies{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .bio{
+        margin-top: 40px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .github-icon{
+        margin-right: 20px;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
