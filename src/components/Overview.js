@@ -29,7 +29,7 @@ export default function Overview(){
                         <a href="#problem-section">problem</a> <br />
                         <a href="#research-section">research</a> <br />
                         <a href="#results-section">results</a> <br />
-                        <a href="/vanessa-portfolio">back</a>
+                        <a href="/">back</a>
                     </div>
                 </Col>
             </Row>
