@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c017b89b.css",
+    "main.js": "/static/js/main.42ed56ba.js",
+    "static/media/vanessa-picture.png": "/static/media/vanessa-picture.4ea9aff70f7ed4e19fe5.png",
+    "static/media/art2.png": "/static/media/art2.9df0610056c8801db84b.png",
+    "static/media/lowfi-consultation.svg": "/static/media/lowfi-consultation.dfee790f095ff162072fb8d61eee8053.svg",
+    "static/media/demo-pic.svg": "/static/media/demo-pic.4558f965c1aa884921b31f41551a5a79.svg",
+    "static/media/art1.png": "/static/media/art1.9799b5f76d356868b6bc.png",
+    "static/media/lowfi-calendar.png": "/static/media/lowfi-calendar.6c03b2fcd5995a86f58a.png",
+    "static/media/art3.png": "/static/media/art3.208e3fd4fcc6b74655c0.png",
+    "static/media/affinity-diagram.png": "/static/media/affinity-diagram.896f2e290f83a6c31a31.png",
+    "static/media/lowfi-resources.svg": "/static/media/lowfi-resources.107e4c32188717f18bf3d15ffadade33.svg",
+    "static/media/hifi-consultation.svg": "/static/media/hifi-consultation.527f88a8b551c85f4c671f46ae85b0bd.svg",
+    "static/media/hifi-calendar.svg": "/static/media/hifi-calendar.6abb5491ce3d5590b6f418c883cca851.svg",
+    "static/media/lowfi-dashboard.svg": "/static/media/lowfi-dashboard.9f223a29622f0bc2fe4bc2742cb70822.svg",
+    "static/media/ued.png": "/static/media/ued.ba95f39a1d1dc7bda0f8.png",
+    "index.html": "/index.html",
+    "main.c017b89b.css.map": "/static/css/main.c017b89b.css.map",
+    "main.42ed56ba.js.map": "/static/js/main.42ed56ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c017b89b.css",
+    "static/js/main.42ed56ba.js"
+  ]
+}

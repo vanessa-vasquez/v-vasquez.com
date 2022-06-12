@@ -31,6 +31,14 @@ export default function Projects(){
             "github": null,
             "read": null
         },
+        "the crush map.":{
+            "title": "the crush map.",
+            "desc": "A web app for visualizing student crushes in the CU community.",
+            "tools": "React, Bootstrap, CytoscapeJS, Firebase",
+            "youtube": null,
+            "github": "https://github.com/vanessa-vasquez/the-crush-map",
+            "read": null
+        },
         "Collegiate Librarians":{
             "title": "Appointment Booking System for Collegiate Librarians",
             "desc": "A UX case study investigating solutions for an improved appointment booking system for collegiate librarians.",
@@ -38,14 +46,6 @@ export default function Projects(){
             "youtube": null,
             "github": null,
             "read": "/collegiate-librarians"
-        },
-        "Political Contributions Tracker":{
-            "title": "Political Contributions Tracker",
-            "desc": "A website that tracks and visualizes the political contributions of U.S. representatives.",
-            "tools": "HTML/CSS, JavaScript, Java, OpenFEC API, Google Charts API",
-            "youtube": null,
-            "github": "https://github.com/Priya411/spring21-sps-33",
-            "read": null
         }
     }
     return (
