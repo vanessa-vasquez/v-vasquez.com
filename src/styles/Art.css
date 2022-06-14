@@ -1,17 +1,20 @@
-#art-section{
-    margin-top: 50px;
-}
-
-#art-section .header{
+.art-header{
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /* Extra small size screens */
 @media only screen and (min-width: 0px) {     
-    #art-section .header{
-        font-weight: 700;
+    .art-header{
         font-size: 30px;
+    }
+}
+
+/* Medium size screens */
+@media only screen and (min-width: 768px) {     
+    .art-header{
+        font-size: 40px;
     }
 }

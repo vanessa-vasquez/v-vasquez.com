@@ -12,8 +12,12 @@ export default function Art(){
         <Container>
             <Row>
                 <Col md={12}>
-                    <div id='art-section'>
-                        <div className='header'>art</div>
+                    <div className='art-header'>art</div>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <div className='art-section'>
                         <Carousel>
                             <CarouselItem>
                                 <a href="https://www.thecolumbiasciencereview.com/covid-blog/tobacco-control-social-support-and-coping-during-the-pandemic-with-daniel-giovenco9908794">

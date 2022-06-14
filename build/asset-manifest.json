@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c017b89b.css",
-    "main.js": "/static/js/main.42ed56ba.js",
+    "main.js": "/static/js/main.731d6a59.js",
     "static/media/vanessa-picture.png": "/static/media/vanessa-picture.4ea9aff70f7ed4e19fe5.png",
     "static/media/art2.png": "/static/media/art2.9df0610056c8801db84b.png",
     "static/media/lowfi-consultation.svg": "/static/media/lowfi-consultation.dfee790f095ff162072fb8d61eee8053.svg",
@@ -17,10 +17,10 @@
     "static/media/ued.png": "/static/media/ued.ba95f39a1d1dc7bda0f8.png",
     "index.html": "/index.html",
     "main.c017b89b.css.map": "/static/css/main.c017b89b.css.map",
-    "main.42ed56ba.js.map": "/static/js/main.42ed56ba.js.map"
+    "main.731d6a59.js.map": "/static/js/main.731d6a59.js.map"
   },
   "entrypoints": [
     "static/css/main.c017b89b.css",
-    "static/js/main.42ed56ba.js"
+    "static/js/main.731d6a59.js"
   ]
 }

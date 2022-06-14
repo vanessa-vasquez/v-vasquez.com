@@ -10,10 +10,10 @@ export default function Overview(){
             <Row>
                 <Col md={1}></Col>
                 <Col xs={12} md={10}>
-                    <div className='project-title'>
+                    <div className='librarian-title'>
                         Appointment Booking System <br /> for Collegiate Librarians 
                     </div>
-                    <div className='project-img'>
+                    <div className='librarian-img'>
                         <Image src={demopic} fluid="true"/>
                     </div>
                     <span className='demo-link'>
@@ -37,10 +37,10 @@ export default function Overview(){
                 <Col md={1}></Col>
                 <Col md={10}>
                 <div id="overview-section">
-                    <div className="project-header">
+                    <div className="librarian-header">
                         Overview
                     </div>
-                    <p> This improved appointment booking system for collegiate librarians enables 
+                    <p> This improved appointment booking system enables collegiate
                         librarians to optimize their workflow by allowing them to view their student 
                         consultations in a consolidated format and develop close relationships with 
                         their students through an open, instant-messaging style of communication.

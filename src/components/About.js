@@ -14,7 +14,7 @@ export default function About() {
                         <div>
                             <span className="title">hey! i'm vanessa</span>
                             <div className="bio">
-                                i’m a third year CS major at Columbia University 
+                                i’m a rising senior and CS major at Columbia University
                                 with a passion for creative coding and all things UI/UX.
                             </div>
 
@@ -26,14 +26,14 @@ export default function About() {
                                         <ul>
                                         <li>HTML/CSS</li>
                                         <li>JavaScript (ES6+)</li>
-                                        <li>React</li>
+                                        <li>Java</li>
                                         </ul>
                                     </div>
                                     <div className="list-2">
                                         <ul>
-                                        <li>Flask</li>
-                                        <li>Java</li>
                                         <li>Python</li>
+                                        <li>React</li>
+                                        <li>Flask</li>
                                         </ul>
                                     </div>
                                 </div>
