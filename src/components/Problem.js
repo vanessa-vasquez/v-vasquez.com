@@ -10,10 +10,7 @@ export default function Problem(){
             <Row>
                 <Col md={1}></Col>
                 <Col xs={12} md={10}>
-                <div id="problem-section">
-                    <div className="project-header">
-                        The Problem
-                    </div>
+                    <div className="librarian-header">The Problem</div>
                     <p> Current student-librarian communication practices involve a host of different platforms 
                         to both keep track of messages and deliver resources. Most of the time, important 
                         information is spread out across multiple emails, Zoom chat records, physical 
@@ -23,7 +20,6 @@ export default function Problem(){
                         centralized way for students to share information with librarians or even for students to 
                         schedule an appointment with their academic librarians. 
                     </p>
-                </div>
                 </Col>
                 <Col md={1}></Col>
             </Row>

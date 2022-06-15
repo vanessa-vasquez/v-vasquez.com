@@ -13,15 +13,11 @@ export default function Research(){
             <Row>
                 <Col md={1}></Col>
                 <Col xs={12} md={10}>
-                <div id="research-section">
-                    <div className="project-header">
-                        Research
-                    </div>
+                    <div className="librarian-header">Research</div>
                     <p> Determined to provide librarians with a better system to communicate with students, 
                         we created a user environment design (UED) to help us get started on a concrete way 
                         to think about a librarian’s user journey.
                     </p>
-                </div>
                 </Col>
                 <Col md={1}></Col>
             </Row>

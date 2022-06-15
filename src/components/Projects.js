@@ -73,7 +73,7 @@ export default function Projects(){
             </Row>
             <Row xs={1} md={2}>
                 {Object.keys(projects).map((key, i) => (
-                    <Col key={key}>
+                    <Col className='mx-auto' key={key}>
                         <div className='my-projects-section'>
                             <Card>
                                 <Card.Body>

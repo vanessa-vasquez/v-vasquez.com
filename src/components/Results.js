@@ -11,10 +11,7 @@ export default function Results(){
             <Row>
                 <Col md={1}></Col>
                 <Col xs={12} md={10}>
-                <div id="results-section">
-                    <div className="project-header">
-                        Results
-                    </div>
+                    <div className="librarian-header">Results</div>
                     <p> Through a dashboard built to display past and upcoming consultations as well as a built-in 
                         chat function for each consultation, our design seeks to address librarians’ need for 
                         consultation organization as well as provide a centralized space for librarians to 
@@ -27,7 +24,6 @@ export default function Results(){
                         Under this new system, librarians can spend more time on the task at hand and less time 
                         worrying about logistical information. 
                     </p>
-                </div>
                 </Col>
                 <Col md={1}></Col>
             </Row>
