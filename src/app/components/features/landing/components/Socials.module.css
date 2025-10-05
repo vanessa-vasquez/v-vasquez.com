@@ -1,0 +1,124 @@
+@keyframes floatOrb {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(0, -6px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.linkedInBtn,
+.githubBtn,
+.mailBtn {
+  animation: floatOrb 4s ease-in-out infinite;
+  height: auto;
+  position: absolute;
+  width: 15vw;
+  will-change: transform;
+}
+
+.linkedInBtn {
+  bottom: 22%;
+  left: 6%;
+}
+
+.githubBtn {
+  bottom: 3%;
+  left: 15%;
+}
+
+.mailBtn {
+  bottom: -9%;
+  left: 33%;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .linkedInBtn,
+  .githubBtn,
+  .mailBtn {
+    width: 10vw;
+  }
+
+  .linkedInBtn {
+    bottom: 22%;
+    left: 6%;
+  }
+
+  .githubBtn {
+    bottom: 3%;
+    left: 15%;
+  }
+
+  .mailBtn {
+    bottom: -9%;
+    left: 33%;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .linkedInBtn {
+    bottom: 0;
+    left: 2%;
+    top: 14%;
+  }
+
+  .githubBtn {
+    bottom: 0;
+    left: 0;
+    top: 30%;
+  }
+
+  .mailBtn {
+    bottom: 0;
+    left: -3%;
+    top: 45%;
+  }
+
+  .linkedInBtn,
+  .githubBtn,
+  .mailBtn {
+    width: 5.5vw;
+  }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .linkedInBtn {
+    bottom: 0;
+    left: 2%;
+    top: 14%;
+  }
+
+  .githubBtn {
+    bottom: 0;
+    left: 0;
+    top: 30%;
+  }
+
+  .mailBtn {
+    bottom: 0;
+    left: -3%;
+    top: 45%;
+  }
+
+  .linkedInBtn,
+  .githubBtn,
+  .mailBtn {
+    width: 4vw;
+  }
+
+  .linkedInBtn:hover,
+  .githubBtn:hover,
+  .mailBtn:hover {
+    cursor: pointer;
+    scale: 1.08;
+    transition: scale 0.25s ease;
+  }
+}

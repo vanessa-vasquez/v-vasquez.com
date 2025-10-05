@@ -1,0 +1,117 @@
+/** Mobile */
+.sticker {
+  height: auto;
+  position: absolute;
+  z-index: var(--sticker-z-index);
+}
+
+.wavySticker {
+  left: -30vw;
+  top: -10vh;
+  width: 100%;
+}
+
+.eyesSticker {
+  right: -5vh;
+  top: -8vh;
+  width: 50%;
+}
+
+.starSticker {
+  bottom: 2vh;
+  left: -18vh;
+  width: 50%;
+}
+
+.googlyEyesSticker {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .wavySticker {
+    left: -30vw;
+    top: -15vh;
+    width: 100%;
+  }
+
+  .eyesSticker {
+    right: -5vh;
+    top: -10vh;
+    width: 50%;
+  }
+
+  .starSticker {
+    bottom: 2vh;
+    left: -12vh;
+    width: 40%;
+  }
+
+  .googlyEyesSticker {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .wavySticker {
+    left: -5vw;
+    top: -5vh;
+    width: 60vw;
+  }
+
+  .eyesSticker {
+    top: -5vh;
+    width: 50%;
+  }
+
+  .starSticker {
+    bottom: 5vh;
+    left: -10vh;
+    width: 30%;
+  }
+
+  .googlyEyesSticker {
+    width: 20%;
+  }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .viewAssets:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+  }
+
+  .viewAssets.sticker:hover.googlyEyesSticker {
+    cursor: pointer;
+    transform: scale(1.08) translateX(-50%);
+  }
+
+  .wavySticker {
+    left: -5vw;
+    top: -5vh;
+    width: 50vw;
+  }
+
+  .eyesSticker {
+    top: -20vh;
+    width: 40%;
+  }
+
+  .starSticker {
+    bottom: 5vh;
+    left: -10vh;
+    width: 20%;
+  }
+
+  .googlyEyesSticker {
+    width: 10%;
+  }
+}

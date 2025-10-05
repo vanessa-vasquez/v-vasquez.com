@@ -1,0 +1,6 @@
+
+User-Agent: *
+Allow: /
+Disallow: /credits
+
+Sitemap: https://v-vasquez.com/sitemap.xml

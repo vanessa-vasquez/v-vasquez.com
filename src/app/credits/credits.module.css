@@ -1,0 +1,91 @@
+.assetElements {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+}
+
+.assetElementContainer {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.assetElement {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pastaFont {
+  font-family: PastaWineLittle, cursive;
+  font-size: 2rem;
+}
+
+.magazineLettersFont {
+  font-family: MagazineLetters, cursive;
+  font-size: 2rem;
+  word-break: break-all;
+}
+
+.assetImages {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.assetImage {
+  display: flex;
+  height: auto;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.homeLink {
+  color: var(--black);
+  display: flex;
+  font-family: PastaWineLittle, cursive;
+  font-size: 2rem;
+  gap: 10px;
+}
+
+.home,
+.slash {
+  color: rgb(152 152 152 / 61.2%);
+}
+
+.home {
+  text-decoration: none;
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .assetElements {
+    margin: 100px 100px 0;
+  }
+
+  .assetImages {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .pastaFont {
+    font-size: 3rem;
+  }
+
+  .magazineLettersFont {
+    font-size: 3rem;
+  }
+
+  .homeLink {
+    font-size: 3rem;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: PastaWineLittle;
+  src: url("/api/fonts?name=pasta_wine_little") format("woff2");
+}
+
+@font-face {
+  font-family: MagazineLetters;
+  src: url("/api/fonts?name=magazine_letters") format("woff2");
+}
+
+:root {
+  --sticker-z-index: 1;
+  --about-me-z-index: 2;
+  --name-animation-z-index: 3;
+  --toast-z-index: 3;
+  --toggle-assets-z-index: 3;
+  --clickable-area-z-index: 4;
+  --modal-z-index: 4;
+  --modal-assets-list-z-index: 5;
+  --markdown-header-font-size: 30px;
+  --black: #363636;
+  --vscode-font-color: #bfbfbf;
+  --vscode-background-color: #242424;
+  --vscode-border-color: #282828;
+  --vscode-secondary-border-color: #3d3d3d;
+  --vscode-accent-color: #4276ce;
+  --vscode-accessible-link-color: #5d8bd5;
+  --vscode-editor-color: #1f1f1f;
+}
+
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html,
+  body {
+    margin: 8px /** Browser default for body **/;
+  }
+}

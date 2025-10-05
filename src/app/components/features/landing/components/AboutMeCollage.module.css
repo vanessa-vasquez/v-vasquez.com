@@ -1,0 +1,25 @@
+.aboutMeCollage img {
+  height: auto;
+  width: 100vw;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .aboutMeCollage img {
+    width: 70vw;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .aboutMeCollage img {
+    width: 90vw;
+  }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .aboutMeCollage img {
+    width: 70vw;
+  }
+}

@@ -1,0 +1,39 @@
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .toggleAssetsContainer {
+    bottom: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    text-align: right;
+  }
+
+  .toggleAssetsImg {
+    height: auto;
+    width: 80%;
+  }
+
+  .viewAssets:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+  }
+
+  .switch {
+    bottom: 8%;
+    left: 30%;
+    position: absolute;
+    transform: scale(1.05) rotate(-1deg);
+    z-index: var(--toggle-assets-z-index);
+  }
+
+  .visuallyHidden {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+}

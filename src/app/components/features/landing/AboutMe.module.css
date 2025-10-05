@@ -1,0 +1,32 @@
+.aboutMeContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.clickableArea {
+  display: block;
+  height: 25vh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -60%) rotate(-3deg);
+  width: 50vw;
+  z-index: var(--clickable-area-z-index);
+}
+
+.clickableArea:hover {
+  cursor: pointer;
+}
+
+.viewAssets:hover {
+  transform: scale(1.08);
+  z-index: var(--about-me-z-index);
+}
+
+.aboutMeSection {
+  position: relative;
+  z-index: var(--about-me-z-index);
+}

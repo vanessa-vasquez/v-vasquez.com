@@ -1,0 +1,76 @@
+.backdrop {
+  align-items: center;
+  backdrop-filter: blur(2px);
+  background: rgb(20 20 30 / 60%);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: var(--modal-z-index);
+}
+
+.modalContainer {
+  background: #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: 50vh;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 60vh;
+}
+
+.hideModalContainer {
+  display: none;
+}
+
+.currentAssetsList {
+  height: calc(100% - 100px);
+  margin-left: 20px;
+  margin-top: 20px;
+  max-height: 80%;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  position: absolute;
+  scrollbar-width: none;
+  z-index: var(--modal-assets-list-z-index);
+}
+
+.assetsListImage {
+  background-color: rgb(255 255 255 / 69.8%);
+  border: 1px solid rgb(224 224 224);
+  border-radius: 5px;
+  height: 40px;
+  object-fit: contain;
+  padding: 10px;
+  width: 50px;
+}
+
+.assetsListImage:hover {
+  cursor: pointer;
+}
+
+.currentAssetImageContainer {
+  display: flex;
+  height: 100%;
+  min-height: 0;
+  position: relative;
+  width: 100%;
+}
+
+.currentAssetImage {
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+.linkContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+.badgeContainer {
+  align-items: center;
+  border: 1px solid var(--vscode-secondary-border-color);
+  border-radius: 30px;
+  color: var(--vscode-font-color);
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 8px 15px;
+  text-align: center;
+  width: fit-content;
+}
+
+.badgeLabel {
+  font-size: 12px;
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .badgeContainer {
+    border-radius: 15px;
+    height: 20px;
+    padding: 3px 15px;
+  }
+}

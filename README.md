@@ -1,10 +1,16 @@
-# vanessa's portfolio - v1
+<div align="center">
 
-This is the first iteration of my personal website built using React and Bootstrap. See it [here](https://vanessa-vasquez.github.io/).
+# v-vasquez.com - v2
 
-> A little fun fact about this project, this is my first ever React project and I built this as a way of learning the framework. 
+This is the second iteration of my personal portfolio built using Next.js.
 
-## set-up
+![Portfolio Screenshot](public/portfolio-screenshot.png)
 
-1. Install the dependencies: `npm install`
-2. Run a local development server: `npm start`
+</div>
+
+## Getting started
+
+> **Note:** For copyright reasons, fonts may be missing or replaced in this repository. The site may not look or function exactly the same as the production version.
+
+1. Install the dependencies: `npm i`
+2. Run a local development server: `npm run dev`

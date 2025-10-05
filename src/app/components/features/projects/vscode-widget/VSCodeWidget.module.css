@@ -1,0 +1,20 @@
+.vsCodeWidgetContainer {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  color: var(--vscode-font-color);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 700px;
+  margin: 0 50px;
+}
+
+.vsCodeContent {
+  display: flex;
+  height: 100%;
+}
+
+.viewAssets:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}

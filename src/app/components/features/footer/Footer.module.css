@@ -1,0 +1,55 @@
+.footerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.lamplightsSticker {
+  height: auto;
+  width: 120px;
+}
+
+.handwrittenFooterText {
+  color: var(--black);
+  font-family: PastaWineLittle, cursive;
+  font-size: 35px;
+}
+
+.magazineFooterText {
+  color: var(--black);
+  font-family: MagazineLetters, cursive;
+  font-size: 50px;
+}
+
+.lastName {
+  font-size: 35px;
+}
+
+.creditsSticker {
+  height: auto;
+  margin-bottom: 50px;
+  width: 80px;
+}
+
+.creditsSticker:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.viewAssets:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .footerContainer {
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+}

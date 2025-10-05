@@ -1,0 +1,31 @@
+.toastContainer {
+  align-items: center;
+  background-color: #f3e5f5;
+  border: 2px solid #9c27b0;
+  border-radius: 30px;
+  bottom: 0;
+  box-shadow:
+    0 4px 10px -2px rgb(156 39 176 / 35%),
+    0 2px 4px -1px rgb(156 39 176 / 25%);
+  color: #9c27b0;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  gap: 15px;
+  left: 50%;
+  margin-bottom: 20px;
+  margin-left: -187.5px; /** Centers and prevents clashing with MUI transformations */
+  padding: 18px 25px;
+  position: fixed;
+  width: 375px;
+  z-index: var(--toast-z-index);
+}
+
+.toastMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.toastHeader {
+  font-weight: bold;
+}

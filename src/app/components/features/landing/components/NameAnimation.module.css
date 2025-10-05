@@ -1,0 +1,46 @@
+.nameAnimation {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -120%) rotate(-3deg);
+  z-index: var(--name-animation-z-index);
+}
+
+.nameAnimation img {
+  height: auto;
+  width: 80vw;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .nameAnimation {
+    transform: translate(-50%, -125%) rotate(-3deg);
+  }
+
+  .nameAnimation img {
+    width: 60vw;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .nameAnimation {
+    transform: translate(-45%, -170%) rotate(-3deg);
+  }
+
+  .nameAnimation img {
+    width: 50vw;
+  }
+}
+
+/** Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nameAnimation {
+    transform: translate(-50%, -185%) rotate(-3deg);
+  }
+
+  .nameAnimation img {
+    width: 35vw;
+  }
+}

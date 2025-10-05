@@ -1,0 +1,55 @@
+.projectsSectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projectsTitle {
+  color: var(--black);
+  font-family: MagazineLetters, cursive;
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-align: center;
+}
+
+.projectsText {
+  color: var(--black);
+  font-family: PastaWineLittle, cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.vsCodeWidget {
+  display: none;
+}
+
+.projectsList {
+  display: block;
+}
+
+.viewAssets:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .projectsTitle {
+    font-size: 80px;
+  }
+
+  .projectsText {
+    font-size: 35px;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .vsCodeWidget {
+    display: block;
+  }
+
+  .projectsList {
+    display: none;
+  }
+}

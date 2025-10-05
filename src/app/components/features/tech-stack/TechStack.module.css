@@ -1,0 +1,159 @@
+@keyframes tiltUpDown {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.techStackMobileContainer {
+  display: block;
+  position: relative;
+}
+
+.techStackMobileContainer img {
+  height: auto;
+  width: 100%;
+}
+
+.techStackTitle {
+  color: var(--black);
+  font-family: PastaWineLittle, cursive;
+  position: absolute;
+  right: 0;
+  top: 6%;
+}
+
+.megaphonePopArt {
+  left: 0;
+  position: absolute;
+  top: 5%;
+  transform: rotate(5deg);
+}
+
+.techStackMobileContainer .megaphonePopArt {
+  height: auto;
+  width: 40%;
+}
+
+.animateScream {
+  animation: tiltUpDown 0.4s ease-in-out;
+  animation-iteration-count: 4;
+}
+
+.animateScare {
+  animation: moveUpDown 0.35s ease-in-out;
+  animation-iteration-count: 5;
+}
+
+.smallTChar {
+  font-size: 2.8rem;
+}
+
+.eChar {
+  font-size: 3.2rem;
+}
+
+.smallCChar {
+  font-size: 3.6rem;
+}
+
+.hChar {
+  font-size: 4rem;
+}
+
+.sChar {
+  font-size: 4.4rem;
+}
+
+.bigTChar {
+  font-size: 4.8rem;
+}
+
+.aChar {
+  font-size: 5.2rem;
+}
+
+.bigCChar {
+  font-size: 5.6rem;
+}
+
+.kChar {
+  font-size: 6rem;
+}
+
+/** Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .techStackMobileContainer .megaphonePopArt {
+    height: auto;
+    width: 40%;
+  }
+
+  .techStackTitle {
+    right: 10%;
+    top: 8%;
+  }
+
+  .smallTChar {
+    font-size: 5rem;
+  }
+
+  .eChar {
+    font-size: 5.4rem;
+  }
+
+  .smallCChar {
+    font-size: 5.8rem;
+  }
+
+  .hChar {
+    font-size: 6.2rem;
+  }
+
+  .sChar {
+    font-size: 6.6rem;
+  }
+
+  .bigTChar {
+    font-size: 7rem;
+  }
+
+  .aChar {
+    font-size: 7.4rem;
+  }
+
+  .bigCChar {
+    font-size: 7.8rem;
+  }
+
+  .kChar {
+    font-size: 8.2rem;
+  }
+}
+
+/** Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .techStackMobileContainer {
+    display: none;
+  }
+}
