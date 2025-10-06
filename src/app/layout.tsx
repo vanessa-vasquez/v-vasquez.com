@@ -4,6 +4,8 @@ import { ViewAssetsProvider } from "@contexts";
 import { Roboto } from "next/font/google";
 import { getImageProps } from "next/image";
 import { PaperBackground } from "@images";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const roboto = Roboto({
   weight: ["400", "600", "700"],
@@ -53,6 +55,8 @@ export default function RootLayout({
         <ViewAssetsProvider>
           <main>{children}</main>
         </ViewAssetsProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
