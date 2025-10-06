@@ -69,7 +69,7 @@ const AssetImage = ({
   width?: string;
 }) => {
   return (
-    <div>
+    <div className={styles.assetImageContainer}>
       <Image
         src={image}
         alt=""

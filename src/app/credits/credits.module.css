@@ -13,7 +13,6 @@
 
 .assetElement {
   display: flex;
-  flex: 1 1 0;
   min-width: 0;
   overflow: hidden;
   text-align: center;
@@ -40,10 +39,14 @@
   padding: 0;
 }
 
-.assetImage {
+.assetImageContainer {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+}
+
+.assetImage {
   height: auto;
-  justify-self: center;
   margin-bottom: 20px;
 }
 
