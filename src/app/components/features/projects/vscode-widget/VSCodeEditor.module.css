@@ -27,7 +27,7 @@
 .vsCodeEditorContent {
   background-color: var(--vscode-editor-color);
   border-radius: 0 0 12px;
-  height: 630px;
+  height: 930px;
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-width: none; /* Firefox */
