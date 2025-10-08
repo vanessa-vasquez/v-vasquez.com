@@ -1,6 +1,8 @@
 import {
   BrownPaper,
   GithubPaper,
+  LinkedInPaper,
+  LinkedInIcon,
   GithubIcon,
   MailPaper,
   MailIcon,
@@ -29,28 +31,37 @@ export function Socials() {
   return (
     <>
       <div className={styles.socialsContainer}>
-        {/* <Image
-          src={LinkedInPaper}
-          alt="Visit my linkedin profile."
-          className={clsx(styles.linkedInBtn, {
-            [styles.viewAssets]: isViewAssetsActive,
-          })}
-          priority
-          onClick={() =>
-            handleAssetClick([
-              {
-                name: "BrownPaper",
-                image: BrownPaper,
-                url: ASSET_LINKS["BrownPaper"],
-              },
-              {
-                name: "LinkedInIcon",
-                image: LinkedInIcon,
-                url: ASSET_LINKS["LinkedInIcon"],
-              },
-            ])
-          }
-        /> */}
+        <a
+          href="https://www.linkedin.com/in/v-vasquez/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            if (isViewAssetsActive) {
+              e.preventDefault();
+              handleAssetClick([
+                {
+                  name: "BrownPaper",
+                  image: BrownPaper,
+                  url: ASSET_LINKS["BrownPaper"],
+                },
+                {
+                  name: "LinkedInIcon",
+                  image: LinkedInIcon,
+                  url: ASSET_LINKS["LinkedInIcon"],
+                },
+              ]);
+            }
+          }}
+        >
+          <Image
+            src={LinkedInPaper}
+            alt="Visit my linkedin profile."
+            className={clsx(styles.linkedInBtn, {
+              [styles.viewAssets]: isViewAssetsActive,
+            })}
+            priority
+          />
+        </a>
         <a
           href="https://github.com/vanessa-vasquez"
           target="_blank"
