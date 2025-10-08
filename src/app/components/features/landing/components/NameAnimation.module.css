@@ -3,7 +3,7 @@
   left: 50%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -120%) rotate(-3deg);
+  transform: translate(-50%, -135%) rotate(-3deg);
   z-index: var(--name-animation-z-index);
 }
 

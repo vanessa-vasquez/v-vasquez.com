@@ -34,13 +34,13 @@
 @media (min-width: 576px) {
   .wavySticker {
     left: -30vw;
-    top: -15vh;
+    top: -18vh;
     width: 100%;
   }
 
   .eyesSticker {
     right: -5vh;
-    top: -10vh;
+    top: -12vh;
     width: 50%;
   }
 
