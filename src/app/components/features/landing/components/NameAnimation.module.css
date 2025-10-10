@@ -37,7 +37,7 @@
 /** Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .nameAnimation {
-    transform: translate(-50%, -185%) rotate(-3deg);
+    transform: translate(-50%, -160%) rotate(-3deg);
   }
 
   .nameAnimation img {
