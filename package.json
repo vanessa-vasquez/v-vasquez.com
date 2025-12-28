@@ -18,7 +18,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
-    "next": "15.5.3",
+    "next": "15.5.9",
     "react": "19.1.0",
     "react-aria": "^3.0.0-nightly-2247a514b-250902",
     "react-dom": "19.1.0",
