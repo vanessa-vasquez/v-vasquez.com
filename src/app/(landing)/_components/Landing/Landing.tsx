@@ -10,6 +10,16 @@ export default function Landing() {
   useEffect(() => {
     const mediaQueryList = window.matchMedia("(min-width: 768px)");
     setIsDesktop(mediaQueryList.matches);
+
+    const handleChange = (e: MediaQueryListEvent) => {
+      setIsDesktop(e.matches);
+    };
+
+    mediaQueryList.addEventListener("change", handleChange);
+
+    return () => {
+      mediaQueryList.removeEventListener("change", handleChange);
+    };
   }, []);
 
   return (
