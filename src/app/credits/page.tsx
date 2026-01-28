@@ -29,7 +29,7 @@ import {
   StarScribble,
 } from "@images";
 import Link from "next/link";
-import StickyLink from "../components/ui/sticky-link/StickyLink";
+import { StickyLink } from "@components";
 
 const AssetElement = ({
   element,
