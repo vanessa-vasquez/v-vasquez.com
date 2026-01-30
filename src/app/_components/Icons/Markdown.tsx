@@ -7,6 +7,7 @@ export const Markdown = () => (
     data-name="Layer 1"
     viewBox="0 0 23.73 18.45"
     width={15}
+    role="presentation"
   >
     <defs>
       <style>

@@ -7,6 +7,7 @@ export const FileExplorer = () => (
     data-name="Layer 2"
     viewBox="0 0 19.63 22.34"
     width={22}
+    role="presentation"
   >
     <defs>
       <style>

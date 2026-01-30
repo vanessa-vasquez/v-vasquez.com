@@ -1,11 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css";
 import { ViewAssetsProvider } from "@contexts";
 import { Roboto } from "next/font/google";
 import { getImageProps } from "next/image";
 import { PaperBackground } from "@images";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import "./globals.css";
 
 const roboto = Roboto({
   weight: ["400", "600", "700"],
@@ -21,12 +20,6 @@ const getBackgroundImage = (srcSet = "") => {
     })
     .join(", ");
   return `image-set(${imageSet})`;
-};
-
-export const metadata: Metadata = {
-  title: "Vanessa Vasquez",
-  description:
-    "Vanessa Vasquez is a software engineer who builds diverse web projects with a focus on design and accessibility.",
 };
 
 export default function RootLayout({
@@ -52,9 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${roboto.className}`} style={style}>
-        <ViewAssetsProvider>
-          <main>{children}</main>
-        </ViewAssetsProvider>
+        <ViewAssetsProvider>{children}</ViewAssetsProvider>
         <Analytics />
         <SpeedInsights />
       </body>

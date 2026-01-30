@@ -35,6 +35,7 @@ export function Socials() {
           href="https://www.linkedin.com/in/v-vasquez/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn rofile (opens in new tab)"
           onClick={(e) => {
             if (isViewAssetsActive) {
               e.preventDefault();
@@ -66,6 +67,7 @@ export function Socials() {
           href="https://github.com/vanessa-vasquez"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile (opens in new tab)"
           onClick={(e) => {
             if (isViewAssetsActive) {
               e.preventDefault();
@@ -97,6 +99,7 @@ export function Socials() {
         <a
           href="mailto:vvasquez528@gmail.com"
           target="_blank"
+          aria-label="Send me an email (opens in new tab)"
           rel="noopener noreferrer"
           onClick={(e) => {
             if (isViewAssetsActive) {

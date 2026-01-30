@@ -42,7 +42,12 @@ const ProjectItem = forwardRef<HTMLDivElement, ProjectItemProps>(
           </div>
           <div className={styles.projectDescription}>{project.description}</div>
           <div className={styles.projectLink}>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit this project (opens in new tab)"
+            >
               {project.link}
             </a>
           </div>

@@ -24,9 +24,9 @@ export default function Projects() {
   };
 
   return (
-    <>
+    <section>
       <div className={styles.projectsSectionContainer}>
-        <div
+        <h2
           className={clsx(styles.projectsTitle, {
             [styles.viewAssets]: isViewAssetsActive,
           })}
@@ -41,7 +41,7 @@ export default function Projects() {
           }
         >
           Projects
-        </div>
+        </h2>
         <div
           className={clsx(styles.projectsText, {
             [styles.viewAssets]: isViewAssetsActive,
@@ -68,6 +68,6 @@ export default function Projects() {
       {currentAssets.length > 0 && (
         <AssetsModal open={open} setOpen={setOpen} assets={currentAssets} />
       )}
-    </>
+    </section>
   );
 }

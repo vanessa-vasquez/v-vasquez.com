@@ -91,7 +91,7 @@ export default function Page() {
             <span>v-vasquez.com</span>
           </Link>
           <span className={styles.slash}>/</span>
-          <span className={styles.credits}>credits</span>
+          <h1 className={styles.credits}>credits</h1>
         </div>
         <AssetElement
           element={<div className={styles.pastaFont}>Pasta and Wine Font</div>}

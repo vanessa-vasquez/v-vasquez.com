@@ -5,6 +5,7 @@ export const Search = () => (
     width={20}
     height={20}
     viewBox="0 0 256 256"
+    role="presentation"
   >
     <path
       fill="#bfbfbf"

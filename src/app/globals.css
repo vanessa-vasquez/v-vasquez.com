@@ -36,12 +36,6 @@ body {
   width: 100%;
 }
 
-.homeContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
-}
-
 /** Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   html,

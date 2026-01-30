@@ -45,6 +45,7 @@ export function VSCodeEditor({ project }: VSCodeEditorProps) {
             target="_blank"
             rel="noopener noreferrer"
             className={styles.vsCodeProjectLink}
+            aria-label="Visit this project (opens in new tab)"
           >
             {link}
           </a>

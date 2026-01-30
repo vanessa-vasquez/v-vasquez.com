@@ -7,6 +7,7 @@ export const ChevronDown = () => (
     width={16}
     height={16}
     viewBox="0 0 24 24"
+    role="presentation"
   >
     <path
       fill="#bfbfbf"

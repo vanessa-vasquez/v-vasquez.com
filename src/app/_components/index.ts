@@ -4,3 +4,4 @@ export * from "./ToggleAssetsSwitch";
 export * from "./AssetsModal";
 export * from "./Toast";
 export * from "./StickyLink";
+export * from "./Footer";
